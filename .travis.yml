@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "se50"
-    token:
-      secure: "73ec6c2767fcbb415ff89f28839d0f40ec4a05f5"
+    organization: "se50mydoc"
+    token: "se50mydoc"
+      secure: "90fcece2546ca0218e499682b77226eefffd41df"
 jdk:
   - oraclejdk8
 script:
