@@ -1,8 +1,8 @@
-public class HelloWorld {
+import java.applet.Applet;
+import java.awt.Graphics;
 
-    public static void main(String[] args) {
-        // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, World");
+public class HelloWorld extends Applet {
+    public void paint(Graphics g) {
+        g.drawString("Hello world!", 50, 25);
     }
-
 }
