@@ -1,3 +1,4 @@
+--trace
 language: java
 gem install rake
 jdk:
