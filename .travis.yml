@@ -1,16 +1,2 @@
 language: java
-sudo: false
-install: true
-addons:
-  sonarcloud:
-    organization: "se50mydoc"
-    token: "se50mydoc"
-      secure: "90fcece2546ca0218e499682b77226eefffd41df"
-jdk:
-  - oraclejdk8
-script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
-cache:
-  directories:
-    - '$HOME/.m2/repository'
-    - '$HOME/.sonar/cache'
+
