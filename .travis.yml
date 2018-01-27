@@ -3,5 +3,6 @@ language: java
 deploy:
   provider: heroku
   api_key:
-    secure: "e8437ee8-a36d-4b43-9486-8bfcb2d7e5fd"
+    secure: e8437ee8-a36d-4b43-9486-8bfcb2d7e5fd
+  app: mydocse50
 
