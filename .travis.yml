@@ -1,4 +1,5 @@
 language: java
+gem install rake
 jdk:
   - oraclejdk8
   - oraclejdk9
